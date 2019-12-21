@@ -695,7 +695,7 @@ input[type="submit"]:hover {
 /*End animations*/
 
 /*Start media queries*/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1000px) {
   body {
     background: url("image/sitebg2.jpg") no-repeat center fixed;
     background-size: cover;
@@ -763,7 +763,7 @@ input[type="submit"]:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .menu-toggler {
     top: 2rem;
     right: 2rem;

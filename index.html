@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Chirascm Production</title>
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="image/logo2.jpeg" type="image/icon type">
+  <script src="https://kit.fontawesome.com/ffd2062ac9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!------------Home page------------->
+  <!---------------Header---------------->
+
+  <header>
+    <div class="menu-toggler">
+      <div class="bar half start">
+
+      </div>
+      <div class="bar">
+
+      </div>
+      <div class="bar half end">
+
+      </div>
+    </div>
+    <nav class="top-nav">
+      <ul class="nav-list">
+        <li>
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#services" class="nav-link">Services</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+        </li>
+        <li>
+          <a href="#experience" class="nav-link">Eperience</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="landing-text">
+      <img src="image/logo.jpeg">
+      <h1>The world is a stage and we are all actors.</h1>
+      <h6>-William Shakespeare</h6>
+    </div>
+  </header>
+
+  <!----------About----------------->
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="profile-img" data-aos="fade-right" data-aos-delay="100">
+        <img src="image/laugh.png" alt="my face!">
+      </div>
+      <div class="about-details" data-aos="fade-left" data-aos-delay="400">
+        <div class="about-heading">
+          <h1>About</h1>
+          <h6>Chirascm</h6>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="social-media">
+          <ul class="nav-list">
+            <li>
+              <a href="#" class="icon-link">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon-link">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------Images----------------->
+
+  <section id="images">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Images</h1>
+        <h6>Our showtime.</h6>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="image/img1.jpeg" alt="Nature" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img2.jpeg" alt="Snow" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img3.jpeg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img4.jpeg" alt="Lights" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img5.jpeg" alt="Nature" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img6.jpeg" alt="Snow" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img7.jpeg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img8.jpeg" alt="Lights" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img9.jpeg" alt="Nature" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img10.jpeg" alt="Snow" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img3.jpeg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="image/img4.jpeg" alt="Lights" onclick="myFunction(this);">
+        </div>
+      </div>
+
+      <!-- The expanding image container -->
+      <div class="container-exp">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------Videoes---------------->
+
+  <section id="video">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Videoes</h1>
+        <h6>Get entertained with:</h6>
+      </div>
+      <div class="video-heading">
+        <h1>Trailers:</h1>
+      </div>
+      <div class="video">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="image/video1.jpeg" alt="design">
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et nulla at ligula vulputate aliquam ut faucibus tellus.</p>
+              <a href="https://www.youtube.com/watch?v=65rKGXH_Xgc">Go There</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-heading">
+        <h1>Films:</h1>
+      </div>
+      <div class="video">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="image/video1.jpeg" alt="design">
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et nulla at ligula vulputate aliquam ut faucibus tellus.</p>
+              <a href="https://www.youtube.com/watch?v=KSngLhNLneg">Go There</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!--------Members--------->
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Members</h1>
+        <h6>Our active members</h6>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+          <img src="image/chirandeep.jpeg" alt="oops!">
+        </div>
+        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+          <h6>Actor/Writer/Director</h6>
+          <h1>Chirandeep Bhattacharya</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="cta">View Details</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-description has-margin-right-spl" data-aos="fade-right" data-aos-delay="1200">
+          <h6>Actor/Assistant producer</h6>
+          <h1>Subhankar Dutta</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="cta">View Details</a>
+        </div>
+        <div class="portfolio-img" data-aos="fade-left" data-aos-delay="900">
+          <img src="image/subhankar.jpeg" alt="oops!">
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+          <img src="image/ishan.jpg" alt="oops!">
+        </div>
+        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+          <h6>Technical assistant</h6>
+          <h1>Ishan Bagchi</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="cta">View Details</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-description has-margin-right-spl" data-aos="fade-right" data-aos-delay="2400">
+          <h6>Cinematography</h6>
+          <h1>Arijeet Debnath</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="cta">View Details</a>
+        </div>
+        <div class="portfolio-img" data-aos="fade-left" data-aos-delay="2100">
+          <img src="image/subhankar.jpeg" alt="oops!">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------Donate--------------->
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Donate</h1>
+        <h6>If you like our work, please donate and inspire</h6>
+      </div>
+      <div class="my-skills">
+        <div class="skill" data-aos="fade-in" data-aos-delay="100">
+          <div class="icon-container">
+            <img src="image/phonepe.png" alt="PhonePe">
+          </div>
+          <h1>Phone-Pe</h1>
+          <p id="p">+919064211956</p>
+          <button class="btn" onclick="copyToClipboard('p')"><i class="far fa-copy"></i> Copy</button>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="400">
+          <div class="icon-container">
+            <img src="image/googlepay.png" alt="Google Pay">
+          </div>
+          <h1>Google Pay</h1>
+          <p id="p">+919064211956</p>
+          <button class="btn" onclick="copyToClipboard('p')"><i class="far fa-copy"></i> Copy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------Contact----------->
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Contact</h1>
+        <h6>Let's work together</h6>
+      </div>
+      <form action="MAILTO:ishanbagchi4@gmail.com" method="post" enctype="text/plain" data-aos="fade-up" data-aos-delay="300">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name..." required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+        <label for="service">Service:</label>
+        <select name="subject" id="service">
+          <option value="">Greetings</option>
+          <option value="">Idea</option>
+          <option value="">Feedback</option>
+        </select>
+        <label for="subject">Subject:</label>
+        <textarea name="subject" rows="10" cols="10" id="subject"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+  <!-------------Copyright-------------->
+
+  <footer class="copyright">
+    <div class="up" id="up">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Ishan Bagchi.</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="main.js"></script>
+  <!-- <script type="text/javascript" src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('.nav a[href*="#"]');
+    </script> -->
+</body>
+
+</html>

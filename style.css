@@ -274,12 +274,16 @@ li {
   color: #4267b2
 }
 
-.fa-linkedin:hover {
-  color: #0e76a8;
+.fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.fa-twitter-square:hover {
-  color: #38a1f3;
+.fa-youtube:hover {
+  color: #c4302b;
 }
 /* End About */
 
@@ -601,6 +605,29 @@ li {
 .portfolio-description .cta:hover {
   color: #2f67cd;
 }
+
+.mem-list {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400%;
+  padding-top: 5%;
+}
+
+.mem-list .fa-facebook-square {
+  color: #4267b2
+}
+
+.mem-list .fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /*End Members*/
 
 /*Start contact*/
@@ -695,7 +722,7 @@ input[type="submit"]:hover {
 /*End animations*/
 
 /*Start media queries*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
   body {
     background: url("image/sitebg2.jpg") no-repeat center fixed;
     background-size: cover;
@@ -763,7 +790,7 @@ input[type="submit"]:hover {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 750px) {
   .menu-toggler {
     top: 2rem;
     right: 2rem;

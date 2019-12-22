@@ -910,5 +910,9 @@ input[type="submit"]:hover {
   .mem-list i {
     padding-right: 50%;
   }
+
+  html {
+    font-size: 15px;
+  }
 }
 /*End media queries*/

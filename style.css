@@ -132,7 +132,7 @@ li {
 
 .nav-link {
   font-family: 'Kaushan Script', cursive;
-  font-size: 5rem;
+  font-size: 3rem;
   padding: 1rem;
 }
 
@@ -555,7 +555,7 @@ li {
   opacity: 0.3;
 }
 
-.tooltip {
+/* .tooltip {
   position: relative;
   display: inline-block;
 }
@@ -591,7 +591,7 @@ li {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 .portfolio-description .cta {
   display: inline-block;
@@ -611,7 +611,7 @@ li {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-size: 400%;
   padding-top: 5%;
@@ -629,6 +629,66 @@ li {
   -webkit-text-fill-color: transparent;
 }
 /*End Members*/
+
+/*Start achievements*/
+.timeline ul {
+  border-left: 4px solid #ffe838;
+  border-radius: .8rem;
+  background-color: rgba(0,0,0,.05);
+  margin: 0 auto;
+  padding: 5rem;
+  list-style: none;
+  text-align: left;
+  width: 70%;
+}
+
+.timeline h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  opacity: .3;
+}
+
+.timeline .date {
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.timeline .date:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .date::before,
+.timeline .date::after {
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline .date::before {
+  content: attr(data-date);
+  left: -21rem;
+  text-align: right;
+  min-width: 12rem;
+  font-size: 1.5rem;
+}
+
+.timeline .date::after {
+  content: '';
+  box-shadow: 0 0 0 4px #fd57bf;
+  border-radius: 100%;
+  left: -7.9rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #313534;
+}
+/*End achievements*/
 
 /*Start contact*/
 .contact {
@@ -804,10 +864,6 @@ input[type="submit"]:hover {
     font-size: 1.4rem;
   }
 
-  .nav-link {
-    font-size: 3.5rem;
-  }
-
   .about .container {
     flex-direction: column;
   }
@@ -846,8 +902,13 @@ input[type="submit"]:hover {
     right: 2rem;
   }
 
-  .column {
+  .column img {
     width: 100%;
+    height: 100%
+  }
+
+  .mem-list i {
+    padding-right: 50%;
   }
 }
 /*End media queries*/
